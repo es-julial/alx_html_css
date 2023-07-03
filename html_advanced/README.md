@@ -1,8 +1,8 @@
 # HTML, advanced
 
-![figma!](https://zupimages.net/viewer.php?id=23/27/ouln.jpg)
+![SCREENSHOT!](https://zupimages.net/viewer.php?id=23/27/ouln.jpg)
 
-![figma!](https://zupimages.net/viewer.php?id=23/27/fzv0.jpg)
+![SCREENSHOT!](https://zupimages.net/viewer.php?id=23/27/fzv0.jpg)
 
 
 ## Resources
