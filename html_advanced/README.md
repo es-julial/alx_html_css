@@ -1,8 +1,8 @@
 # HTML, advanced
 
-![SCREENSHOT1](home.jpg)
+![SCREENSHOT1](./images/home.jpg)
 
-![SCREENSHOT2](frames.jpg)
+![SCREENSHOT2](./images/frames.jpg)
 
 
 ## Resources
