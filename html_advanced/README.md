@@ -1,8 +1,8 @@
 # HTML, advanced
 
-![SCREENSHOT!](https://zupimages.net/viewer.php?id=23/27/ouln.jpg)
+![SCREENSHOT1!](../images/home.jpg)
 
-![SCREENSHOT!](https://zupimages.net/viewer.php?id=23/27/fzv0.jpg)
+![SCREENSHOT2!](../images/frames.jpg)
 
 
 ## Resources
