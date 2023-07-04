@@ -25,3 +25,15 @@ General
    * What is an element / tag
    * What is an attribute
    * What the purpose of each HTML tag
+
+
+
+### MY RESULT NOT bad though !
+
+
+![SCREENSHOT4](./images/myresult/1.png)
+![SCREENSHOT5](./images/myresult/2.png)
+![SCREENSHOT6](./images/myresult/3.png)
+
+
+#### THANK YOU !
