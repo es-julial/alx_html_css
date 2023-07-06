@@ -5,6 +5,7 @@ body, main {
 
 body {
     flex-direction: column;
+    background-color: #828080;
 }
 
 main {
@@ -14,13 +15,35 @@ main {
 
 main article {
     flex: 2;
-    background-color: bisque;
+    background-color: rgb(99, 111, 133);
 }
 
 main aside {
     flex: 1;
+    background-color: #12263f;
 }
 
 main article, main aside {
     overflow-y: auto;
+}
+
+  .logo {
+      font-size: 2em;
+      color: #020000;
+  }
+  
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #585858;
+}
+
+th {
+    background-color: #5b4444;
 }
