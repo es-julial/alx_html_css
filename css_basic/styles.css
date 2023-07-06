@@ -11,27 +11,36 @@ body {
 main {
     flex-direction: row;
     flex: auto;
+    border: 2px solid black
 }
 
 main article {
     flex: 2;
+    /* width:67%; */
     background-color: rgb(99, 111, 133);
 }
 
 main aside {
-    flex: 1;
+     flex: 1; 
+    /* width: 33% */
     background-color: #12263f;
+    color:#e4dede
 }
 
 main article, main aside {
     overflow-y: auto;
 }
 
-  .logo {
-      font-size: 2em;
-      color: #020000;
+ 
+  li span {
+      background: gold;
   }
-  
+
+   .logo {
+       font-size: 3em;
+       color: #020000;
+   }
+
 table {
     width: 100%;
     border-collapse: collapse;
