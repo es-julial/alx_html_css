@@ -21,13 +21,12 @@ body {
 }
 
 main {
-    /* display: block */
-    display: flex;
+    display: block
 }
 
 h1 {
     font-size: 2em;
-    margin: .67em 0;
+    margin: .67em 0
 }
 
 hr {
@@ -112,7 +111,7 @@ select {
 [type=reset],
 [type=submit],
 button {
-    -webkit-appearance: button;
+    -webkit-appearance: button
 }
 
 [type=button]::-moz-focus-inner,
@@ -127,7 +126,7 @@ button::-moz-focus-inner {
 [type=reset]:-moz-focusring,
 [type=submit]:-moz-focusring,
 button:-moz-focusring {
-    outline: 1px dotted ButtonText;
+    outline: 1px dotted ButtonText
 }
 
 fieldset {
@@ -140,15 +139,15 @@ legend {
     display: table;
     max-width: 100%;
     padding: 0;
-    white-space: normal;
+    white-space: normal
 }
 
 progress {
-    vertical-align: baseline;
+    vertical-align: baseline
 }
 
 textarea {
-    overflow: auto;
+    overflow: auto
 }
 
 [type=checkbox],
@@ -177,8 +176,7 @@ textarea {
 }
 
 details {
-    /* display: block */
-    display: flex;
+    display: block
 }
 
 summary {
@@ -243,8 +241,7 @@ template {
     /** HEADER **/
     --header-padding: 4rem 0 0;
     --header-logo-position: relative;
-    /* --header-logo-link-display: inline-block; */
-    --header-logo-link-display: inline-flex;
+    --header-logo-link-display: inline-block;
     --header-logo-link-position: absolute;
     --header-logo-link-top: -1rem;
     --header-logo-link-left: 0;
@@ -257,14 +254,12 @@ template {
     --nav-item-font-weight: var(--font-weight-bold);
     --nav-item-font-size: var(--font-size-medium);
     --nav-item-letter-spacing: .04rem;
-    /* --nav-item-display: inline-block; */
-    --nav-item-display: inline-flex;
+    --nav-item-display: inline-block;
     --nav-item-margin: 0 2rem 0 0;
     --nav-item-link-hover: var(--color-white);
 
     /** BUTTON **/
-    /* --button-display: inline-block; */
-    --button-display: inline-flex;
+    --button-display: inline-block;
     --button-padding: 1.5rem 3rem;
     --button-border: var(--color-primary) solid 0.2rem;
     --button-color: var(--color-black);
@@ -370,6 +365,10 @@ a:active {
 
 /* Grid
       ============================= */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
 
 ul.row {
     margin: 0;
@@ -396,10 +395,6 @@ ul.row {
     width: 50%;
 }
 
-.row {
-    display: flex;
-}
-
 /* Navbar
       ============================= */
 
@@ -424,8 +419,7 @@ ul.row {
 }
 
 .nav .nav-link {
-    /* display: block; */
-    display: flex;
+    display: block;
     padding: 0.5rem 0;
     position: relative;
 }
@@ -496,8 +490,7 @@ ul.row {
 }
 
 .social-link {
-    /* display: block; */
-    display: flex;
+    display: block;
 }
 
 .social-link>svg {
@@ -570,6 +563,7 @@ ul.row {
 .section-hero .section-inner {
     padding: 10rem 40rem 2rem 0;
 }
+
 /* Section Latest news ============================= */
 
 .section-latest-news .row {
@@ -633,8 +627,7 @@ ul.row {
 }
 
 .card-work .card-title a {
-    /* display: block; */
-    display: flex;
+    display: block;
     text-decoration: none;
     padding-top: 45%;
 }
@@ -660,8 +653,7 @@ ul.row {
 }
 
 .card-services a {
-    /* display: block; */
-    display: flex;
+    display: block;
     padding: 2rem;
     background-color: var(--color-light-grey);
 }
@@ -688,8 +680,7 @@ ul.row {
 }
 
 .card-testimonial .card-quote cite {
-    /* display: block; */
-    display: flex;
+    display: block;
     padding-top: 1rem;
     color: var(--color-primary);
 }
@@ -707,3 +698,10 @@ ul.row {
     font-size: 10rem;
     z-index: -1;
 }
+
+/* .section-services{}
+.section-works{}
+.section-about-us{}
+.section-latest-news{}
+.section-testimonial{}
+.section-contact{} */
