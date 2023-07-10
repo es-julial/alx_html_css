@@ -506,7 +506,8 @@ ul.row {
 
 /*** 3. SECTION ***/
 
-/* Section (all styles) ============================= */
+/* Section (all styles)
+      ============================= */
 
 .section {
     padding: var(--section-padding);
@@ -542,7 +543,8 @@ ul.row {
     text-align: var(--section-footer-align);
 }
 
-/* Section theming ============================= */
+/* Section theming
+      ============================= */
 
 [data-section-theme="dark"] {
     --button-color: var(--color-white);
@@ -551,7 +553,8 @@ ul.row {
     background-color: #010101;
 }
 
-/* Section HERO ============================= */
+/* Section HERO
+      ============================= */
 
 .section-hero {
     background-position: 75% 0;
@@ -568,16 +571,10 @@ ul.row {
     padding: 10rem 40rem 2rem 0;
 }
 
-/* Section Latest news ============================= */
-
-.section-latest-news .row {
-    display: flex;
-    flex-direction: row-reverse;
-}
-
 /*** 4. CARD ***/
 
-/* Card (all styles) ============================= */
+/* Card (all styles)
+      ============================= */
 
 .card-category {
     color: var(--color-primary);
