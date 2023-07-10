@@ -692,9 +692,26 @@ ul.row {
     z-index: -1;
 }
 
-/* .section-services{}
-.section-works{}
-.section-about-us{}
-.section-latest-news{}
-.section-testimonial{}
-.section-contact{} */
+.section-services{
+    display: flex;
+}
+.section-works{
+    display: flex;
+
+}
+.section-about-us{
+
+    display: flex;
+}
+.section-latest-news{
+    display: flex;
+
+}
+.section-testimonial{
+    display: flex;
+
+}
+.section-contact{
+    display: flex;
+
+}
